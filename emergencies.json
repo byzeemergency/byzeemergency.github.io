@@ -1,4 +1,4 @@
-{
+{{
   "emergencies": [
     {"type": "Bushfire", "location": "Mallacoota, VIC", "lat": -37.56, "lng": 149.75, "time": "2026-01-06 14:30"},
     {"type": "Flood", "location": "Jerona, QLD", "lat": -19.65, "lng": 147.42, "time": "2026-01-06 13:40"},
@@ -10,4 +10,15 @@
     {"type": "Flood", "location": "Townsville, QLD", "lat": -19.26, "lng": 146.81, "time": "2026-01-06 09:50"},
     {"type": "Bushfire", "location": "Hobart, TAS", "lat": -42.88, "lng": 147.33, "time": "2026-01-06 09:30"},
     {"type": "Severe Weather", "location": "Darwin, NT", "lat": -12.46, "lng": 130.84, "time": "2026-01-06 08:50"},
-    
+    {"type": "Flood", "location": "Rockhampton, QLD", "lat": -23.38, "lng": 150.51, "time": "2026-01-06 08:30"},
+    {"type": "Bushfire", "location": "Albury, NSW", "lat": -36.08, "lng": 146.92, "time": "2026-01-06 08:10"},
+    {"type": "Severe Weather", "location": "Gold Coast, QLD", "lat": -28.02, "lng": 153.42, "time": "2026-01-06 07:50"},
+    {"type": "Bushfire", "location": "Canberra, ACT", "lat": -35.28, "lng": 149.13, "time": "2026-01-06 07:30"},
+    {"type": "Flood", "location": "Bunbury, WA", "lat": -33.33, "lng": 115.64, "time": "2026-01-06 07:10"},
+    {"type": "Severe Weather", "location": "Sunshine Coast, QLD", "lat": -26.65, "lng": 153.09, "time": "2026-01-06 06:50"},
+    {"type": "Bushfire", "location": "Wagga Wagga, NSW", "lat": -35.12, "lng": 147.37, "time": "2026-01-06 06:30"},
+    {"type": "Flood", "location": "Geelong, VIC", "lat": -38.15, "lng": 144.36, "time": "2026-01-06 06:10"},
+    {"type": "Severe Weather", "location": "Launceston, TAS", "lat": -41.44, "lng": 147.14, "time": "2026-01-06 05:50"},
+    {"type": "Bushfire", "location": "Newcastle, NSW", "lat": -32.93, "lng": 151.78, "time": "2026-01-06 05:30"}
+  ]
+}
