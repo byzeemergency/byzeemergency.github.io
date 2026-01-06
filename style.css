@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f4f4;
+}
+
+header {
+  background: #b71c1c;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.alert {
+  background: white;
+  border-left: 8px solid red;
+  margin: 15px;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.alert.flood {
+  border-color: #0277bd;
+}
+
+.alert.bushfire {
+  border-color: #e65100;
+}
+
+.alert.cyclone {
+  border-color: #4a148c;
+}
+
+.alert h2 {
+  margin-top: 0;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #ddd;
+}
+
+/* =========================
+   MAP STYLES (added)
+   ========================= */
+#map {
+  height: 400px;
+  width: 100%;
+}
