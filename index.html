@@ -1,34 +1,36 @@
-<!DOCTYPE html>
+<!<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Emergency Map & Updates</title>
-
-  <!-- Leaflet CSS -->
-  <link
-    rel="stylesheet"
-    href="https://unpkg.com/leaflet/dist/leaflet.css"
-  />
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Australia Emergency Watch</title>
   <link rel="stylesheet" href="style.css">
+  <!-- Leaflet.js for interactive maps -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
 </head>
 <body>
+  <header>
+    <h1>Australia Emergency Watch</h1>
+    <p>Live updates on bushfires, floods, and severe weather across Australia.</p>
+  </header>
 
-<header>
-  <h1>🚨 Emergency Map</h1>
-  <p>Live emergency locations and warnings</p>
-</header>
+  <main>
+    <section id="map-section">
+      <h2>Live Emergency Map</h2>
+      <div id="map"></div>
+    </section>
 
-<div id="map"></div>
+    <section id="alerts-section">
+      <h2>Recent Alerts</h2>
+      <ul id="alerts-list"></ul>
+    </section>
+  </main>
 
-<main id="alerts"></main>
+  <footer>
+    <p>Data source: <a href="https://www.emergency.wa.gov.au/">State Emergency Services</a></p>
+  </footer>
 
-<footer>
-  <p>Information may change rapidly • Follow official advice</p>
-</footer>
-
-<!-- Leaflet JS -->
-<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-<script src="script.js"></script>
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
