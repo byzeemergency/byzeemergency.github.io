@@ -1,29 +1,32 @@
-[
-  {
-    "type": "bushfire",
-    "title": "Bushfire Watch and Act",
-    "location": "Bullioh, Bungil, Granya, Thologolong, Victoria",
-    "status": "Be ready to leave and stay informed.",
-    "description": "This Watch and Act message is being issued for Bungil, Burrowye, Guys Forest, Koetong, Mount Alfred, Thologolong .There is a bushfire at 25km west of Walwa that is not yet under control .This warning is for the east of Mt Lawson State Park.The bushfire is travelling within the Mt Lawson National Park in a south-easterly direction.",
-    "updated": "6 January 2026, 5:00 PM",
-    "lat": -36.0023751,
-    "lng": 147.4501913
-  },
-  {
-    "type": "flood",
-    "title": "Flood Watch & Act",
-    "location": "Jerona, QLD",
-    "status": "Monitor conditions and stay informed.",
-    "description": "The Burdekin Local Disaster Management Group advises residents of the Jerona township to MONITOR CONDITIONS, as recent flooding has impacted access to Jerona Road, resulting in temporary isolation of the community.",
-    "updated": "6 January 2026, 4:49 PM",
-    "lat": -19.4558176,
-    "lng": 147.2154638
-  },
-  {
-   "type": "Structure Fire",
-    "title": "Fire",
-    "location": "Shelford-Mount Mencer Road, VIC",
-    "status": "Threat is reduced.",
-    "updated": "6 January 2026, 5:55 PM",
-    "lat": -37.8780334
-    "lng": 143.9032240
+{
+  "emergencies": [
+    {"type": "Bushfire", "location": "Mallacoota, VIC", "lat": -37.56, "lng": 149.75, "time": "2026-01-06 14:30"},
+    {"type": "Flood", "location": "Jerona, QLD", "lat": -19.65, "lng": 147.42, "time": "2026-01-06 13:40"},
+    {"type": "Severe Weather", "location": "Perth, WA", "lat": -31.95, "lng": 115.86, "time": "2026-01-06 12:10"},
+    {"type": "Bushfire", "location": "Bendigo, VIC", "lat": -36.76, "lng": 144.28, "time": "2026-01-06 11:50"},
+    {"type": "Flood", "location": "Cairns, QLD", "lat": -16.92, "lng": 145.77, "time": "2026-01-06 11:20"},
+    {"type": "Severe Weather", "location": "Sydney, NSW", "lat": -33.87, "lng": 151.21, "time": "2026-01-06 10:45"},
+    {"type": "Bushfire", "location": "Adelaide, SA", "lat": -34.93, "lng": 138.60, "time": "2026-01-06 10:10"},
+    {"type": "Flood", "location": "Townsville, QLD", "lat": -19.26, "lng": 146.81, "time": "2026-01-06 09:50"},
+    {"type": "Bushfire", "location": "Hobart, TAS", "lat": -42.88, "lng": 147.33, "time": "2026-01-06 09:30"},
+    {"type": "Severe Weather", "location": "Darwin, NT", "lat": -12.46, "lng": 130.84, "time": "2026-01-06 08:50"},
+    
+    // Repeat or add similar objects up to 50
+    {"type": "Flood", "location": "Rockhampton, QLD", "lat": -23.38, "lng": 150.51, "time": "2026-01-06 08:30"},
+    {"type": "Bushfire", "location": "Albury, NSW", "lat": -36.08, "lng": 146.92, "time": "2026-01-06 08:10"},
+    {"type": "Severe Weather", "location": "Gold Coast, QLD", "lat": -28.02, "lng": 153.42, "time": "2026-01-06 07:50"},
+    {"type": "Bushfire", "location": "Canberra, ACT", "lat": -35.28, "lng": 149.13, "time": "2026-01-06 07:30"},
+    {"type": "Flood", "location": "Bunbury, WA", "lat": -33.33, "lng": 115.64, "time": "2026-01-06 07:10"},
+    {"type": "Severe Weather", "location": "Sunshine Coast, QLD", "lat": -26.65, "lng": 153.09, "time": "2026-01-06 06:50"},
+    {"type": "Bushfire", "location": "Wagga Wagga, NSW", "lat": -35.12, "lng": 147.37, "time": "2026-01-06 06:30"},
+    {"type": "Flood", "location": "Geelong, VIC", "lat": -38.15, "lng": 144.36, "time": "2026-01-06 06:10"},
+    {"type": "Severe Weather", "location": "Launceston, TAS", "lat": -41.44, "lng": 147.14, "time": "2026-01-06 05:50"},
+    {"type": "Bushfire", "location": "Newcastle, NSW", "lat": -32.93, "lng": 151.78, "time": "2026-01-06 05:30"},
+
+    // Continue until 50 emergencies
+    {"type": "Flood", "location": "Broome, WA", "lat": -17.95, "lng": 122.23, "time": "2026-01-06 05:10"},
+    {"type": "Bushfire", "location": "Ballarat, VIC", "lat": -37.56, "lng": 143.85, "time": "2026-01-06 04:50"},
+    {"type": "Severe Weather", "location": "Port Macquarie, NSW", "lat": -31.43, "lng": 152.91, "time": "2026-01-06 04:30"},
+    {"type": "Flood", "location": "Alice Springs, NT", "lat": -23.70, "lng": 133.88, "time": "2026-01-06 04:10"}
+  ]
+}
