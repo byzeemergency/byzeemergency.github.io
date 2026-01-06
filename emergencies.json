@@ -1,22 +1,25 @@
 [
   {
     "type": "bushfire",
-    "title": "Bushfire Emergency Warning",
-    "location": "Hills District, WA",
-    "status": "Evacuate immediately",
-    "description": "An uncontrolled bushfire is burning near residential areas.",
-    "updated": "6 January 2026, 2:00 PM",
-    "lat": -31.9535,
-    "lng": 115.8570
+    "title": "Bushfire Watch and Act",
+    "location": "Bullioh, Bungil, Granya, Thologolong, Victoria",
+    "status": "Be ready to leave and stay informed.",
+    "description": "This Watch and Act message is being issued for Bungil, Burrowye, Guys Forest, Koetong, Mount Alfred, Thologolong .
+* There is a bushfire at 25km west of Walwa that is not yet under control .
+* This warning is for the east of Mt Lawson State Park.
+* The bushfire is travelling within the Mt Lawson National Park in a south-easterly direction.",
+    "updated": "6 January 2026, 5:00 PM",
+    "lat": -36.0023751,
+    "lng": 147.4501913
   },
   {
     "type": "flood",
-    "title": "Flood Watch",
-    "location": "Swan River, WA",
-    "status": "Monitor conditions",
-    "description": "River levels rising due to heavy rainfall.",
-    "updated": "6 January 2026, 12:30 PM",
-    "lat": -31.9505,
-    "lng": 115.8605
+    "title": "Flood Watch & Act",
+    "location": "Jerona, QLD",
+    "status": "Monitor conditions and stay informed.",
+    "description": "The Burdekin Local Disaster Management Group advises residents of the Jerona township to MONITOR CONDITIONS, as recent flooding has impacted access to Jerona Road, resulting in temporary isolation of the community.",
+    "updated": "6 January 2026, 4:49 PM",
+    "lat": -19.4558176,
+    "lng": 147.2154638
   }
 ]
